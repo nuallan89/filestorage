@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block contentblock %}
+
+<div class="home">
+<div class="jumbotron bg-transparent lead best-h1">
+
+
+    <h1>Welcome to Dragon.</h1>
+
+    <hr class="hr-lighter">
+
+      <div class="recruit">
+
+        <br>
+
+        <p>Recruitment status: <span class="recruit-status">OPEN</span></p>
+
+          <br>
+
+            <p>For more information on how to join, please visit our recruitment landing page :
+              <a class="btn btn-outline-success" href="{% url 'apply' %}">Apply</a>
+            </p>
+
+          <br>
+
+      </div>
+
+    <hr class="hr-lighter">
+
+      <div class="">
+
+        <h2>What we do!</h2>
+
+          <p>As a corporation in New Eden, we have developed in many aspects of EVE Online
+            including but not limited to pvp, mining, industry, ratting and manufacturing
+            to name a few. We have a great community of players who all get involved and
+            provide assistance when needed and are from various timezones.</p>
+
+        <br>
+
+          <p>The final and most important thing - <strong>Real Life Comes First!</strong></p>
+
+      </div>
+
+  </div>
+</div>
+
+{% endblock %}
